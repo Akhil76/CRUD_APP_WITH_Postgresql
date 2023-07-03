@@ -1,0 +1,7 @@
+CREATE DATABASE bookDB;
+
+CREATE TABLE book(
+    id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(100),
+    auther VARCHAR(100)
+);
